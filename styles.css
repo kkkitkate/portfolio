@@ -62,3 +62,11 @@
     margin:0;
   }
 }
+
+/* v12 final polish */
+.projects-note-link{color:inherit;text-decoration:none;cursor:pointer}
+.projects-note-link span{transition:.2s}
+.projects-note-link:hover span{text-decoration:underline;text-underline-offset:4px}
+.case-photo-contain{margin:0 var(--pad) 100px}
+.case-photo-contain img{width:100%;height:auto;max-height:none;object-fit:contain}
+@media(max-width:850px){.case-photo-contain{margin:0 var(--pad) 60px}}
