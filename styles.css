@@ -13,19 +13,52 @@
 .bio-text p{margin:0 0 1.1em}
 .bio-text p:last-child{margin-bottom:0}
 
-
-/* v10: показываем все избранные проекты после первых шести */
-.editorial-grid .project:nth-child(n+7){
-  grid-column:span 4;
-  height:30vw;
-  max-height:500px;
+/* v11 — stable featured works layout */
+.editorial-grid{
+  display:grid;
+  grid-template-columns:repeat(12,minmax(0,1fr));
+  gap:12px;
+  align-items:stretch;
+}
+.editorial-grid .project:nth-child(n){
+  grid-column:auto;
+  height:auto;
+  min-height:0;
+  max-height:none;
   margin:0;
 }
+
+/* крупная, но предсказуемая журнальная раскладка */
+.editorial-grid .project:nth-child(6n+1){
+  grid-column:span 7;
+  aspect-ratio:16/10;
+}
+.editorial-grid .project:nth-child(6n+2){
+  grid-column:span 5;
+  aspect-ratio:4/3;
+}
+.editorial-grid .project:nth-child(6n+3),
+.editorial-grid .project:nth-child(6n+4),
+.editorial-grid .project:nth-child(6n+5){
+  grid-column:span 4;
+  aspect-ratio:4/5;
+}
+.editorial-grid .project:nth-child(6n+6){
+  grid-column:span 12;
+  aspect-ratio:16/7;
+}
+
 @media(max-width:850px){
-  .editorial-grid .project:nth-child(n+7){
-    grid-column:span 12;
-    height:68vw;
+  .editorial-grid{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+  .editorial-grid .project:nth-child(n){
+    grid-column:1;
+    aspect-ratio:4/3;
+    height:auto;
+    min-height:0;
     max-height:none;
-    margin:0 0 9px;
+    margin:0;
   }
 }
