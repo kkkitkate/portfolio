@@ -1,0 +1,31 @@
+const SITE={profession:'Видеохудожник / Видеоинженер',verticalText:'ВИДЕО ДЛЯ СЦЕНЫ',heroText:'Видео для театра. Визуальный контент как часть сценического пространства.',aboutShort:'Видеохудожник и видеоинженер. Работаю с театральными постановками, концертами и специальными проектами — от разработки визуального языка до реализации видео на сцене.'};
+const PROJECTS=[
+{year:'2026',title:'Мата-Хари',director:'Вероника Вернадская',designer:'Надежда Берендеева',theatre:'Кировский драматический театр',cover:'assets/mata-cover.jpeg',featured:true,internal:'projects/mata-hari.html',external:'https://kirovdramteatr.ru/shows/418'},
+{year:'2026',title:'А что у вас?',director:'',designer:'',extraCredit:'художественный руководитель Евгений Миронов',theatre:'Театр-студия классической и современной хореографии «Шене» · фестиваль «НЕБО»',cover:'assets/achto-cover.jpg',featured:true,internal:'projects/a-chto-u-vas.html'},
+{year:'2025',title:'Белый пароход',director:'Юрий Печенежский',designer:'Леша Лобанов',theatre:'РАМТ · Черная комната',cover:'assets/belyy-cover.jpg',featured:true,internal:'projects/belyy-parokhod.html',external:'https://ramt.ru/plays/item/belyy-parokhod/'},
+{year:'2025',title:'Пустые поезда',director:'Алексей Золотовицкий',designer:'Софья Егорова',theatre:'РАМТ',cover:'assets/pustye-cover.jpg',featured:true,internal:'projects/pustye-poezda.html',external:'https://ramt.ru/plays/item/pustye-poezda/'},
+{year:'2025',title:'Колобок',director:'',designer:'',theatre:'Музыкальный гастро-спектакль · ВкусВилл на Красной Пресне',cover:'assets/kolobok-stage.jpg',featured:true,internal:'projects/kolobok.html',external:'https://vk.ru/wall33395401_5113'},
+{year:'2024',title:'Медный всадник',director:'Кирилл Симонов',designer:'Екатерина Злая',theatre:'Саратовский академический театр оперы и балета',cover:'assets/medny-cover.jpg',featured:true,internal:'projects/medny-vsadnik.html',external:'https://www.operabalet.ru/repertuar/balet/mednyi_vsadnik_12.html'},
+{year:'2026',title:'Горький фест 2026',director:'Алексей Золотовицкий',designer:'',theatre:'Горький фест'},
+{year:'2026',title:'Лавр',director:'Юрий Печенежский',designer:'Леша Лобанов',theatre:'Томский драматический театр',external:'https://www.tomskdrama.ru/repertuar/lavr/'},
+{year:'2026',title:'Саша, привет!',director:'Алексей Золотовицкий',designer:'София Егорова',theatre:'Калининградский областной театр драмы'},
+{year:'2026',title:'Сказки народов России',director:'',designer:'',theatre:'Оркестр им. Н. П. Осипова · Концертный зал Чайковского',external:'https://meloman.ru/kids/concerts/kzch-2026-03-21/'},
+{year:'2026',title:'Змей Горыныч и другие диковинные звери',director:'',designer:'',theatre:'Оркестр им. Н. П. Осипова · Концертный зал Чайковского',external:'https://meloman.ru/kids/concerts/kzch-2026-02-22/'},
+{year:'2026',title:'Федя Булкин',director:'Юрий Печенежский',designer:'Леша Лобанов',theatre:'Театр Практика',external:'https://praktikatheatre.ru/events/fedya'},
+{year:'2025',title:'Премия Корша 2025',director:'Сергей Сотников',designer:'',theatre:'Театр Наций'},
+{year:'2025',title:'С любимыми не расставайтесь',director:'Вероника Вернадская',designer:'Надежда Берендеева',theatre:'Кировский драматический театр',external:'https://kirovdramteatr.ru/shows/403'},
+{year:'2025',title:'Маленький принц',director:'Татьяна Миткалева',designer:'',theatre:'Кстати театр',external:'https://kstati-teatr.ru/shows/malenkij-princ/'},
+{year:'2025',title:'Синяя птица',director:'Сергей Сотников',designer:'',theatre:'ЦАТРА',external:'https://www.afisha.ru/performance/sinyaya-ptica-311514/'},
+{year:'2025',title:'Пастух и пастушка',director:'Сергей Сотников',designer:'',theatre:'Театр Наций'},
+{year:'2025',title:'Жюли',director:'Джеймс Нобо',designer:'Анастасия Юдина',theatre:'Театр Наций'},
+{year:'2024',title:'Чужие письма',director:'Андрей Цисарук',designer:'',theatre:'Театр Практика',external:'https://praktikatheatre.ru/events/chuzhiepisma'},
+{year:'2024',title:'Концерт на бис',director:'Дмитрий Сердюк',designer:'',theatre:'ММДМ',external:'https://www.mmdm.ru/event/vladimir-spivakov-koncert-na-bis?event_pk=4917'},
+{year:'2024',title:'Премия Корша',director:'Сергей Сотников',designer:'',theatre:'Театр Наций'},
+{year:'2024',title:'Гриша не свидетель',director:'Алексей Чеботарёв',designer:'Алиса Школьникова',theatre:'РАМТ',external:'https://ramt.ru/plays/item/grisha-ne-svidetel/'},
+{year:'2024',title:'Географ глобус пропил',director:'Андрей Цисарук',designer:'',theatre:'Тверской академический театр драмы',external:'https://tatd.ru/repertoire/large_stage/geograf-globus-propil-/'},
+{year:'2024',title:'Шинель',director:'Андрей Цисарук',designer:'',theatre:'Театр имени Волкова'},
+{year:'2024',title:'Денискины рассказы',director:'Дмитрий Сердюк',designer:'',theatre:'Фестиваль «НЕБО»'},
+{year:'2024',title:'Конек Горбунок',director:'Юрий Печенежский',designer:'',theatre:'Фестиваль «НЕБО»'},
+{year:'2024',title:'Прогулка в городе Т',director:'Дмитрий Сердюк',designer:'',theatre:'Горький+ Нижний Новгород'}
+];
+const FEATURED=PROJECTS.filter(p=>p.featured);
