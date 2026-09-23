@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Онегин — kk_kitkate</title>
+  <link rel="stylesheet" href="../styles.css?v=15">
+</head>
+<body class="inner onegin-case">
+<header class="header">
+  <a class="logo" href="../index.html?v=15">kk_kitkate</a>
+  <nav class="nav"><a href="../index.html?v=15#works">Работы</a><a href="../projects.html">Все проекты</a><a href="../about.html">Обо мне</a></nav>
+</header>
+<a class="back" href="../index.html?v=15#works">← Назад</a>
+<main>
+  <section class="project-top">
+    <h1>Онегин</h1>
+    <div class="credits">ММДМ<br>22 сентября 2026<br>художественное слово — Евгений Миронов, Марина Александрова<br><br><b>Адаптация видеоконтента для большого экрана</b></div>
+  </section>
+
+  <div class="case-cover"><img src="../assets/onegin/stage-2828.jpg" alt="Онегин — ММДМ"></div>
+
+  <section class="onegin-stats" aria-label="Технические параметры">
+    <div><strong>1920 × 1080</strong><span>исходный контент</span></div>
+    <div class="stat-arrow">→</div>
+    <div><strong>8904 × 3360</strong><span>экранное пространство</span></div>
+    <div><strong>10</strong><span>экранных поверхностей</span></div>
+    <div><strong>disguise (d3)</strong><span>медиасервер</span></div>
+  </section>
+
+  <section class="case-intro">
+    <h2>Задача</h2>
+    <div><p>Исходный Full HD-контент был адаптирован под многоэкранную сценографию ММДМ. Изображения масштабировались, композиционно расширялись и дорабатывались с сохранением исходной живописной фактуры. Финальный контент был подготовлен под 10 экранных поверхностей для воспроизведения через медиасервер disguise (d3).</p></div>
+  </section>
+
+  <figure class="onegin-layout">
+    <img src="../assets/onegin/screen-layout.jpg" alt="Схема десяти экранных поверхностей">
+    <figcaption><span>Схема экранных поверхностей</span><span>8904 × 3360 px</span></figcaption>
+  </figure>
+
+  <section class="onegin-section-head"><span>01</span><h2>Расширение композиции</h2><p>Формат исходного изображения перестраивался под пропорции сценического пространства: недостающие области композиции продолжались так, чтобы изображение воспринималось единым.</p></section>
+
+  <div class="compare" data-compare>
+    <img src="../assets/onegin/garden-after.jpg" alt="Адаптированная композиция">
+    <div class="compare-before" data-before><img src="../assets/onegin/garden-before.jpg" alt="Исходная композиция"></div>
+    <div class="compare-line" data-line><span>↔</span></div>
+    <input type="range" min="0" max="100" value="50" aria-label="Сравнить до и после" data-range>
+    <div class="compare-label before">до</div><div class="compare-label after">после</div>
+  </div>
+
+  <section class="onegin-section-head"><span>02</span><h2>Сохранение фактуры</h2><p>При увеличении изображения важно было не потерять характер исходной живописи. Фактура дорабатывалась на уровне, который выдерживает масштаб большого экрана.</p></section>
+  <div class="onegin-texture"><img src="../assets/onegin/texture-detail.jpg" alt="Фрагмент живописной фактуры после адаптации"></div>
+
+  <section class="onegin-section-head"><span>03</span><h2>На сцене</h2><p>Итоговая композиция собирается из десяти отдельных поверхностей и воспринимается зрителем как единое визуальное пространство.</p></section>
+  <div class="onegin-gallery">
+    <figure class="wide"><img src="../assets/onegin/stage-2818.jpg" alt="Онегин — сцена ММДМ"></figure>
+    <figure><img src="../assets/onegin/stage-2811.jpg" alt="Онегин — сцена ММДМ"></figure>
+    <figure><img src="../assets/onegin/stage-2831.jpg" alt="Онегин — сцена ММДМ"></figure>
+    <figure class="wide"><img src="../assets/onegin/stage-2828.jpg" alt="Онегин — сцена ММДМ"></figure>
+  </div>
+
+  <div class="case-end"><div>ММДМ · 2026</div><a class="btn" href="../projects.html">Все проекты <span>→</span></a></div>
+</main>
+<script>
+document.querySelectorAll('[data-compare]').forEach(function(box){
+  var range=box.querySelector('[data-range]'),before=box.querySelector('[data-before]'),line=box.querySelector('[data-line]');
+  function update(){var v=range.value;before.style.width=v+'%';line.style.left=v+'%'}
+  range.addEventListener('input',update);update();
+});
+</script>
+</body>
+</html>
