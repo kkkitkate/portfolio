@@ -7,6 +7,10 @@ const SITE={
 
 const PROJECTS=[
   // 2026
+  {sortDate:'2026-09-22',year:'2026',title:'Онегин',director:'',designer:'',extraCredit:'адаптация видеоконтента для большого экрана · художественное слово Евгений Миронов и Марина Александрова',theatre:'ММДМ'},
+{sortDate:'2026-09-12',year:'2026',title:'ОНА И МУЗЫКА И СЛОВО',director:'Дмитрий Сердюк',designer:'',extraCredit:'дирижер и солист Владимир Спиваков · художественное слово Алиса Фрейндлих',theatre:'ММДМ'},
+{sortDate:'2026-09-01',year:'2026',title:'Премия Корша 2026',director:'Сергей Сотников',designer:'',extraCredit:'видеоконтент совместно с видеохудожником Александром Плахиным',theatre:'Театр Наций'},
+{sortDate:'2026-08-30',year:'2026',title:'DJ-сет фестиваля «Горький+»',director:'',designer:'',theatre:'Москва'},
   {sortDate:'2026-07-01',year:'2026',title:'Горький фест 2026',director:'Алексей Золотовицкий',designer:'',theatre:'Горький фест',external:'https://vk.ru/gorkyfest52?w=wall-195953864_3739'},
   {sortDate:'2026-05-30',year:'2026',title:'А что у вас?',director:'',designer:'',extraCredit:'художественный руководитель Евгений Миронов',theatre:'Театр-студия классической и современной хореографии «Шене» · фестиваль «НЕБО»',cover:'assets/achto-new-cover.png',featured:true,internal:'projects/a-chto-u-vas.html'},
   {sortDate:'2026-04-30',year:'2026',title:'Лавр',director:'Юрий Печенежский',designer:'Леша Лобанов',theatre:'Томский драматический театр',external:'https://www.tomskdrama.ru/repertuar/lavr/'},
