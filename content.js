@@ -7,7 +7,7 @@ const SITE={
 
 const PROJECTS=[
   // 2026
-  {sortDate:'2026-09-22',year:'2026',title:'Онегин',director:'',designer:'',extraCredit:'адаптация видеоконтента для большого экрана · художественное слово Евгений Миронов и Марина Александрова',theatre:'ММДМ',cover:'assets/onegin/stage-2828.jpg',featured:true,internal:'projects/onegin.html'},
+  {sortDate:'2026-09-22',year:'2026',title:'Онегин. Лирические отступления',director:'',designer:'',extraCredit:'адаптация видеоконтента для большого экрана · художественное слово Евгений Миронов и Марина Александрова',theatre:'ММДМ',cover:'assets/onegin/stage-2828.jpg',featured:true,internal:'projects/onegin.html'},
 {sortDate:'2026-09-12',year:'2026',title:'ОНА И МУЗЫКА И СЛОВО',director:'Дмитрий Сердюк',designer:'',extraCredit:'дирижер и солист Владимир Спиваков · художественное слово Алиса Фрейндлих',theatre:'ММДМ'},
 {sortDate:'2026-09-01',year:'2026',title:'Премия Корша 2026',director:'Сергей Сотников',designer:'',extraCredit:'видеоконтент совместно с видеохудожником Александром Плахиным',theatre:'Театр Наций'},
 {sortDate:'2026-08-30',year:'2026',title:'DJ-сет фестиваля «Горький+»',director:'',designer:'',theatre:'Москва'},
